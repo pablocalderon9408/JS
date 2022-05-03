@@ -9,7 +9,6 @@ function saludarFruta(fruta){
 while(frutas.length>0){
     var fruta = frutas.pop()
     saludarFruta(fruta)
-
 }
 
 // opción 1 con for
