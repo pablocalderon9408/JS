@@ -29,3 +29,12 @@ var nombreArticulo = articulos.map(function(articulo){
 var findArticulo = articulos.find(function(articulo){
     return articulo.nombre = "Tv"
 });
+
+articulos.forEach(function(articulo){
+    console.log(articulo.nombre)
+
+})
+
+var articuloEco = articulos.some(function(articulo){
+    return articulo.costo <= 100
+})
